@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(195, 212, 226);
+}
+.first{
+    padding: 30px;
+    height: fit-content;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 30px ;
+}
+h2{
+    font-size: 30px;
+}
+.second{
+    color: aliceblue;
+    padding: 30px;
+    height: fit-content;
+    width: 200px;
+    background-color:  rgb(9, 9, 51);
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.third{
+    padding: 30px;
+    height: fit-content;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 30px ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    color: rgb(220, 228, 235);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    margin: 30px auto;
+    background-color: rgb(9, 9, 51);
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    color: rgb(9, 9, 51);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px;
+    margin: 30px auto;
+    background-color: white;
+}
+.points{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-size: 35px;
+    font-weight: 100;
+    margin: 10px 0;
+}
